@@ -11,7 +11,7 @@ echo == shows version ==
 python -V > pythonversions.txt
 
 
-git -version > git-version.txt
+git -v > git-version.txt
 
 java -version> java-version.txt
 
