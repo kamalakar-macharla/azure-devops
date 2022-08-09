@@ -7,14 +7,17 @@ systeminfo > sys-information.txt
 echo == shows version ==
 
 
-python -V
-python version > versions.txt
 
-git -version
+python -V > pythonversions.txt
 
-java -version
 
-mvn -V
+git -version > git-version.txt
+
+java -version> java-version.txt
+
+mvn -V > mvn-version.txt
+
+
 
 
 
