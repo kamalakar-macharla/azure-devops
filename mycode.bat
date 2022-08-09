@@ -4,11 +4,14 @@ echo === system information ===
 
 systeminfo > sys-information.txt
 
+python -V
+
+git -version
+
 java -version
 
 mvn -V
 
-git -version
  
 echo === END ===
 pause
