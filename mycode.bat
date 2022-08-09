@@ -2,7 +2,7 @@ echo off
 echo welcome Aparna
 echo === system information ===
 
-systeminfo
+systeminfo > sys-information.txt
 
 java -version
 
