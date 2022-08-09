@@ -8,6 +8,7 @@ echo == shows version ==
 
 
 python -V
+python version > versions.txt
 
 git -version
 
@@ -15,7 +16,7 @@ java -version
 
 mvn -V
 
-version > versions.txt
+
 
  
 echo === END ===
