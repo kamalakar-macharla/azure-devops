@@ -23,10 +23,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              00004009
 Time Zone:                 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
 Total Physical Memory:     12,088 MB
-Available Physical Memory: 7,114 MB
+Available Physical Memory: 7,187 MB
 Virtual Memory: Max Size:  14,776 MB
-Virtual Memory: Available: 9,536 MB
-Virtual Memory: In Use:    5,240 MB
+Virtual Memory: Available: 9,682 MB
+Virtual Memory: In Use:    5,094 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\DESKTOP-8MSAJAC
