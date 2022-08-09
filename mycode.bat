@@ -2,20 +2,20 @@ echo off
 echo welcome Aparna
 echo === system information ===
 
-systeminfo > sys-information.txt
+systeminfo >>sys-information.txt
 
 echo == shows version ==
 
 
 
-python -V > pythonversions.txt
+python -V >> sys-information.txt
 
 
-git -v > git-version.txt
+git --version >> sys-information.txt
 
-java -version> java-version.txt
+java -version>>sys-information.txt
 
-mvn -V > mvn-version.txt
+mvn -V>>sys-information.txt
 
 
 
