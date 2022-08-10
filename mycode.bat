@@ -1,5 +1,5 @@
 echo off
-echo welcome Aparna
+echo welcome Aparna to appurepo
 echo === system information ===
 
 systeminfo >>sys-information.txt
