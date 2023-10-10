@@ -23,7 +23,7 @@ stages:
             displayName: 'Deploy Dev'
 
 - stage: DeployQA
-  dependsOn: DeployDev
+  dependsOn: Build
   jobs:
   - deployment: Deploy
     pool:
