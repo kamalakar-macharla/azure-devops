@@ -8,7 +8,7 @@ stages:
     - script: echo Building the application...
       displayName: 'Build'
 
-- stage: Deploy-To-Dev
+- stage: Deploy To Dev
   dependsOn: Build
   jobs:
   - deployment: Deploy
@@ -22,7 +22,7 @@ stages:
           - script: echo Deploying to development environment...
             displayName: 'Deploy Dev'
 
-- stage: Deploy-To-QA
+- stage: Deploy To QA
   dependsOn: DeployDev
   jobs:
   - deployment: Deploy
