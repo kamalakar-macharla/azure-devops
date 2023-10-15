@@ -34,4 +34,4 @@ stages:
         deploy:
           steps:
           - script: echo Deploying to QA environment...
-            displayName: 'Deploy QA'
+            displayName: 'Deploy into QA'
