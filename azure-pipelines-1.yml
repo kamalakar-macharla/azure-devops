@@ -2,6 +2,7 @@ trigger:
   branches:
     include:
     - master
+    - release/*
 
 stages:
 - stage: Build
